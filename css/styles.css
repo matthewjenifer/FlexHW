@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;
+    color: white;
+}
+
+h1{
+    margin: 1em;
+
+}
+
+img{
+    max-height: 300px;
+    max-width: 500px;
+}
+
+#parent {
+    border: solid red;
+    /* font-size: 5rem; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* height: 100vh; */
+    
+}
+
+.child {
+    border: solid black; 
+
+    text-align: center;
+    height: 175px;
+    background-color: darkgray ;
+}
+
+.cousin {
+    
+    border: solid black;
+    margin: 10px;
+    background-color: coral;
+    height: 150px;
+    width: 200px;
+    
+}
+
+ #box1 {
+    background-color: black;
+    height: 50px;
+    
+}
+
+#box2 {
+    display: flex;
+}
+
+#box3 {
+    background-color: brown;
+    height: 150px;
+    
+}
+
+#box4 {
+    background-color: skyblue;
+    height: 900px;
+    
+}
+
+#box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box9{
+    background-color: chartreuse;
+    margin: 30px;
+    height: 250px;
+    
+}
+
+/* ========= FORM ============ */
+
+
+#form-container {
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid black;
+  }
+
+#form-container > h1 {
+  text-align: center;
+}
+
+form {
+  padding: 10px;
+}
+
+  input {
+    display: block;
+    width: 99%;
+  }
+
+  #submit-container {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #submit-container > button {
+    width: 30%;
+
+  }
+
